@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE_responsive_using_BOOTSTRAP</title>
+
+
+    <!-- using bootstrap by cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome by cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<style>
+    .item {
+        width: 360px;
+        height: 160px;
+        box-shadow: 0 3px 6px 0 red;
+
+        padding-left: 0px;
+        margin: 10px;
+    }
+
+
+    .header {
+        background-color: brown;
+        width: 200%;
+        height: 55px;
+        margin-left: 0px;
+
+    }
+
+    .select {
+        position: absolute;
+
+
+        top: 55%;
+        left: 28%;
+    }
+
+    .dd {
+        width: 170%;
+
+        padding: 19px;
+        font-size: 12px;
+    }
+
+
+
+
+    .text-field {
+        position: absolute;
+        top: 55%;
+        left: 49%;
+
+
+    }
+
+    .icon {
+        position: absolute;
+        left: 180px;
+        top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+
+    }
+
+    .tx2 {
+        width: 300%;
+        height: 300%;
+        padding: 18px;
+        font-size: 14px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 32%;
+        left: 47%;
+        color: #eb2929;
+        background-color: #ffffff;
+        height: 91px;
+        width: 95px;
+        text-align: center;
+        font-size: 58px;
+        border-radius: 50%;
+        font-weight: 600;
+        font-style: oblique;
+    }
+
+    .caption {
+        position: absolute;
+        color: #ffffff;
+        font-size: 21px;
+        top: 47%;
+        left: 34%;
+    }
+
+    .heading {
+
+
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: 97px;
+
+    }
+
+    .subheading {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+        margin-left: 97px;
+    }
+
+    .header {
+        background-color: #ce0505;
+        height: 100px;
+        width: 100%;
+        color: antiquewhite;
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 10px 20px 0px 10px;
+    }
+
+    .top-row1 {
+        position: absolute;
+        top: 25px;
+        left: 90px;
+        color: #eb2929;
+        background-color: #ffffff;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        font-size: 36px;
+        border-radius: 50%;
+        font-weight: 600;
+        font-style: oblique;
+    }
+
+    .top-row2 {
+        position: absolute;
+        top: 40px;
+        left: 1125px;
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+    }
+
+    .top-row3 {
+        position: absolute;
+        top: 25px;
+        left: 1200px;
+        color: #ffffff;
+        font-family: poppins;
+        border: 1px solid #ffffff;
+        font-size: 15px;
+    }
+
+    .qs_option-right-top {
+        margin-left: 20px;
+
+        width: 88px;
+        height: 25px;
+        font-family: Poppins;
+        font-size: 23px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-top: 5px;
+
+    }
+
+    .qs_option-right-bottom {
+
+        margin-left: 20px;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+    }
+
+    @media only screen and (max-width:600px) {
+        .item {
+            width: 360px;
+            height: 160px;
+            box-shadow: 0 3px 6px 0 red;
+
+            padding-left: 0px;
+            margin: 10px;
+            margin-left: 82px;
+            
+        }
+
+
+        .header {
+            background-color: brown;
+            width: 200%;
+            height: 55px;
+
+
+        }
+
+        .select {
+            position: absolute;
+
+
+            top: 60%;
+            left: 28%;
+        }
+
+        .dd {
+            width: 155%;
+
+            padding: 19px;
+            font-size: 12px;
+        }
+
+
+
+
+        .text-field {
+            position: absolute;
+            top: 74%;
+            left: 28%;
+
+
+        }
+
+        .icon {
+            position: absolute;
+            left: 180px;
+            top: 15px;
+            font-weight: bold;
+            font-size: 25px;
+
+        }
+
+        .tx2 {
+            width: 300%;
+            height: 300%;
+            padding: 18px;
+            font-size: 14px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 32%;
+            left: 43%;
+            color: #eb2929;
+            background-color: #ffffff;
+            height: 91px;
+            width: 95px;
+            text-align: center;
+            font-size: 58px;
+            border-radius: 50%;
+            font-weight: 600;
+            font-style: oblique;
+        }
+
+        .caption {
+            position: absolute;
+            color: #ffffff;
+            font-size: 21px;
+            top: 50%;
+            left: 11%;
+        }
+
+        .heading {
+
+
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.53;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            margin-left: 146px;
+
+        }
+
+        .subheading {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #8c96ab;
+            margin-left: 115px;
+        }
+
+        .header {
+            background-color: #ce0505;
+            height: 100px;
+            width: 100%;
+            color: antiquewhite;
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 10px 20px 0px 10px;
+        }
+
+        .top-row1 {
+            position: absolute;
+            top: 25px;
+            left: 60px;
+            color: #eb2929;
+            background-color: #ffffff;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            font-size: 36px;
+            border-radius: 50%;
+            font-weight: 600;
+            font-style: oblique;
+        }
+
+        .top-row2 {
+            position: absolute;
+            top: 40px;
+            left: 280px;
+            color: #ffffff;
+            font-family: Poppins;
+            font-size: 15px;
+        }
+
+        .top-row3 {
+            position: absolute;
+            top: 25px;
+            left: 330px;
+            color: #ffffff;
+            font-family: poppins;
+            border: 1px solid #ffffff;
+            font-size: 15px;
+        }
+
+    }
+
+    @media only screen and (min-width:600px) and (max-width:792px) {
+
+        .item {
+        width: 360px;
+        height: 160px;
+        box-shadow: 0 3px 6px 0 red;
+
+        padding-left: 0px;
+        margin-left: 165px;
+    }
+
+
+    .header {
+        background-color: brown;
+        width: 200%;
+        height: 55px;
+        margin-left: 0px;
+
+    }
+
+    .select {
+        position: absolute;
+
+
+        top: 55%;
+        left: 32%;
+    }
+
+    .dd {
+        width: 170%;
+
+        padding: 19px;
+        font-size: 12px;
+    }
+
+
+
+
+    .text-field {
+        position: absolute;
+        top: 70%;
+        left: 32%;
+
+
+    }
+
+    .icon {
+        position: absolute;
+        left: 180px;
+        top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+
+    }
+
+    .tx2 {
+        width: 300%;
+        height: 300%;
+        padding: 18px;
+        font-size: 14px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 32%;
+        left: 42%;
+        color: #eb2929;
+        background-color: #ffffff;
+        height: 91px;
+        width: 95px;
+        text-align: center;
+        font-size: 58px;
+        border-radius: 50%;
+        font-weight: 600;
+        font-style: oblique;
+    }
+
+    .caption {
+        position: absolute;
+        color: #ffffff;
+        font-size: 21px;
+        top: 47%;
+        left: 25%;
+    }
+
+    .heading {
+
+
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: 245px;
+
+    }
+
+    .subheading {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+        margin-left: 215px;
+    }
+
+    .header {
+        background-color: #ce0505;
+        height: 100px;
+        width: 100%;
+        color: antiquewhite;
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 10px 20px 0px 10px;
+    }
+
+    .top-row1 {
+        position: absolute;
+        top: 25px;
+        left: 45px;
+        color: #eb2929;
+        background-color: #ffffff;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        font-size: 36px;
+        border-radius: 50%;
+        font-weight: 600;
+        font-style: oblique;
+    }
+
+    .top-row2 {
+        position: absolute;
+        top: 40px;
+        left: 500px;
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+    }
+
+    .top-row3 {
+        position: absolute;
+        top: 25px;
+        left: 560px;
+        color: #ffffff;
+        font-family: poppins;
+        border: 1px solid #ffffff;
+        font-size: 15px;
+    }
+
+    .qs_option-right-top {
+        margin-left: 20px;
+
+        width: 88px;
+        height: 25px;
+        font-family: Poppins;
+        font-size: 23px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-top: 5px;
+
+    }
+
+    .qs_option-right-bottom {
+
+        margin-left: 20px;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+    }
+
+    }
+
+    @media only screen and (min-width:792px) and (max-width:992px) {
+        .item {
+        width: 360px;
+        height: 160px;
+        box-shadow: 0 3px 6px 0 red;
+
+        padding-left: 0px;
+        margin-left: 5px
+    }
+
+
+    .header {
+        background-color: brown;
+        width: 200%;
+        height: 55px;
+        margin-left: 0px;
+
+    }
+
+    .select {
+        position: absolute;
+
+
+        top: 55%;
+        left: 23%;
+        
+    }
+
+    .dd {
+        width: 170%;
+
+        padding: 19px;
+        font-size: 12px;
+    }
+
+
+
+
+    .text-field {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+
+
+    }
+
+    .icon {
+        position: absolute;
+        left: 180px;
+        top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+
+    }
+
+    .tx2 {
+        width: 300%;
+        height: 300%;
+        padding: 18px;
+        font-size: 14px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 32%;
+        left: 43%;
+        color: #eb2929;
+        background-color: #ffffff;
+        height: 91px;
+        width: 95px;
+        text-align: center;
+        font-size: 58px;
+        border-radius: 50%;
+        font-weight: 600;
+        font-style: oblique;
+    }
+
+    .caption {
+        position: absolute;
+        color: #ffffff;
+        font-size: 21px;
+        top: 47%;
+        left: 29%;
+    }
+
+    .heading {
+
+
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: 112px;
+
+    }
+
+    .subheading {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+        margin-left: 112px;
+    }
+
+    .header {
+        background-color: #ce0505;
+        height: 100px;
+        width: 100%;
+        color: antiquewhite;
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 10px 20px 0px 10px;
+    }
+
+    .top-row1 {
+        position: absolute;
+        top: 25px;
+        left: 90px;
+        color: #eb2929;
+        background-color: #ffffff;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        font-size: 36px;
+        border-radius: 50%;
+        font-weight: 600;
+        font-style: oblique;
+    }
+
+    .top-row2 {
+        position: absolute;
+        top: 40px;
+        left: 750px;
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 15px;
+    }
+
+    .top-row3 {
+        position: absolute;
+        top: 25px;
+        left: 800px;
+        color: #ffffff;
+        font-family: poppins;
+        border: 1px solid #ffffff;
+        font-size: 15px;
+    }
+
+    .qs_option-right-top {
+        margin-left: 20px;
+
+        width: 88px;
+        height: 25px;
+        font-family: Poppins;
+        font-size: 23px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-top: 5px;
+
+    }
+
+    .qs_option-right-bottom {
+
+        margin-left: 20px;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #8c96ab;
+    }
+
+
+    }
+        
+
+</style>
+
+<body>
+
+    <!--wallpapper and content-->
+    <div class="container-fluid">
+        <div class="header">
+            <span class="top-row1"><b>e!</b></span>
+            <span class="top-row2">login</span>
+
+            <span class="top-row3" style="border: 1px solid white; padding: 10px; border-radius: 3px;">create an
+                account</span>
+
+        </div>
+        <img src="Images/homepage.png" height="480px" width="100%">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="logo">
+                    <b>e!</b>
+                </div>
+                <div class="caption"><b>Find the best restaurants,cafes,and bars</b></div>
+
+                <div class="select">
+                    <select class="dd">
+                        <option>Select location</option>
+                        <optio>Chennai</option>
+                            <option>Bangalore</option>
+                            <option>hyderabad</option>
+
+                    </select>
+                </div>
+                <div class="text-field">
+                    <span class="fas fa-search icon" style="position: absolute; left: 180px; top:10px; 
+                font-weight: bold; font-size: 25px;"></span>
+                    <input type="text" placeholder="search for restaurants"
+                        style=" padding-right: 35px; padding-top: 18px ;padding-bottom: 9px;width: 107%;">
+                </div>
+
+            </div>
+        </div>
+        <div class="heading">Quick Searches</div>
+        <div class="subheading">Discover restaurants by type of meal</div>
+    </div>
+    <!--grid-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 item ">
+                <div style="display: inline-block; width: 50%; height: 100%; ">
+                    <img src="Images/food1.png" width="100%" height="100%">
+                </div>
+                <div style="display: inline-block; width:45% ; vertical-align: top;">
+                    <div class="qs_option-right-top"><b>Breakfast</b></div><br>
+                    <div class="qs_option-right-bottom">Start your day with
+                        exclusive breakfast
+                        options</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item  ">
+                <div style="display: inline-block; width: 50%; height: 100%;">
+                    <img src="Images/food2.png" width="100%" height="100%">
+                </div>
+                <div style="display: inline-block; width:45% ; vertical-align: top;">
+                    <div class="qs_option-right-top"><b>Lunch</b></div><br>
+                    <div class="qs_option-right-bottom">Start your day with
+                        exclusive breakfast
+                        options</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item ">
+                <div style="display: inline-block; width: 50%;height: 100%;">
+                    <img src="Images/food3.png" width="100%" height="100%">
+                </div>
+                <div style="display: inline-block; width:45% ; vertical-align: top;">
+                    <div class="qs_option-right-top"><b>Snacks</b></div><br>
+                    <div class="qs_option-right-bottom">Start your day with
+                        exclusive breakfast
+                        options</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item  ">
+                <div style="display: inline-block; width: 50%; height: 100%;">
+                    <img src="Images/food4.png" width="100%" height="100%">
+                </div>
+                <div style="display: inline-block; width:45% ; vertical-align: top;">
+                    <div class="qs_option-right-top"><b>Dinner</b></div><br>
+                    <div class="qs_option-right-bottom">Start your day with
+                        exclusive breakfast
+                        options</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item  ">
+                <div style="display: inline-block; width: 50%; height: 100%;">
+                    <img src="Images/food5.png" width="100%" height="100%">
+                </div>
+                <div style="display: inline-block; width:45% ; vertical-align: top;">
+                    <div class="qs_option-right-top"><b>Drinks</b></div><br>
+                    <div class="qs_option-right-bottom">Start your day with
+                        exclusive breakfast
+                        options</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 item  ">
+                <div style="display: inline-block; width: 50%; height: 100%;">
+                    <img src="Images/food6.png" width="100%" height="100%">
+                </div>
+                <div style="display: inline-block; width:45% ; vertical-align: top;">
+                    <div class="qs_option-right-top"><b>Nightlife</b></div><br>
+                    <div class="qs_option-right-bottom">Start your day with
+                        exclusive breakfast
+                        options</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
